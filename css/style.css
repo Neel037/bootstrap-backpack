@@ -8,6 +8,9 @@ header{
     font-weight: 700;
 }
 
+.common-heading{
+    font-size: 22px;
+}
 .heading{
     padding-bottom: 70px;
 }
@@ -30,7 +33,7 @@ section{
     margin-right: 10px;
 }
 
-.card-body span{
+.price{
     font-size: 35px;
     color: green;
     font-weight: 700;
@@ -70,3 +73,117 @@ section{
     color: #363958;
 
 }
+.contact-section{
+    background-color: #FFFFF4;
+    padding: 20px;
+}
+.contact-half{
+    padding: 50px 90px;
+}
+
+.contact-half h2{
+    padding: 20px 50px;
+}
+.custom-font{
+    font-size: 20px;
+    
+}
+
+.footer-text{
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*====== Media Quory======*/
+
+/*  Medium Device Responsive  */
+@media (min-width: 768px) and (max-width: 1200px) { 
+    .common-heading{
+        font-size: 18px;
+    }
+    .custom-card{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .heading-text1{
+        font-size: 50px;
+        letter-spacing: 2px;
+    
+    }
+    
+    .heading-text2{
+        font-size: 50px;
+        letter-spacing: 2px;
+        
+    
+    }
+
+    .custm-btn {
+ 
+    padding: .25rem .4rem;
+    font-size: .6rem;
+    border-radius: .2rem;
+         
+    }
+
+    .price{
+        font-size: 25px;
+    }
+    .cart-img{
+        width: 25px;
+        margin-right: 0px;
+    }
+    .product-header{
+        font-size: 35px;
+        margin: 30px 0;
+    
+    }
+
+
+}
+
+/*  Small Device Responsive  */
+@media (min-width: 360px) and (max-width: 767.98px) {
+    .common-heading{
+        font-size: 18px;
+    }
+
+    .custom-card{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .heading-text1{
+        font-size: 50px;
+        letter-spacing: 2px;
+    
+    }
+    
+    .heading-text2{
+        font-size: 50px;
+        letter-spacing: 2px;
+        
+    
+    }
+    .custom-card{
+        margin: 10px auto;
+    }
+    .product-header{
+        font-size: 25px;
+        margin: 30px 0;
+        text-align: center;
+    
+    }
+    
+    
+ }
+
